@@ -1,0 +1,40 @@
+Algorithm:
+Step 1: Start
+Step 2: Initialize the Tic-Tac-Toe board
+Step 3: Display the board
+Step 4: Accept human move
+Step 5: Check for terminal state (win or draw)
+Step 6: Generate all possible AI moves
+Step 7: Apply Minimax recursively to evaluate future states
+Step 8: Select the move with the highest evaluation value
+Step 9: Make AI move
+Step 10: Repeat until game ends
+Step 11: Stop
+
+Flowchart:
+START
+  ↓
+Initialize Board
+  ↓
+Human Move
+  ↓
+Terminal State?
+  ↓Yes → Display Result → END
+  ↓No
+Generate Possible Moves
+  ↓
+Apply Minimax
+  ↓
+Select Best Move
+  ↓
+AI Move
+  ↓
+Terminal State?
+  ↓Yes → Display Result → END
+  ↓No
+Repeat
+
+
+Difference Between Loigc-2 Method-2 and Logic-3:
+Program 2 imitates human reasoning using rules, while Program 3 guarantees optimal play using look-ahead search.
+
