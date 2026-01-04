@@ -1,0 +1,32 @@
+Logic-1: Uses stored knowledge in a move table to make instant decisions.
+Logic-2: Uses predefined rules to imitate human reasoning.
+Logic-2  Method-2: Improves Logic-2 by using smarter board representation for efficiency.
+Logic-3: Uses Minimax to look ahead and guarantee optimal play.
+
+Logic-1  → Memory-based AI
+Logic-2  → Rule-based reasoning
+Logic-2′ → Optimized rule-based reasoning
+Logic-3  → True intelligent search-based AI
+
+| Aspect                        | Logic-1                     | Logic-2                        | Logic-2 (Method-2)                     | Logic-3                   |
+| ----------------------------- | --------------------------- | ------------------------------ | -------------------------------------- | ------------------------- |
+| **AI Category**               | Table-Driven AI             | Rule-Based AI                  | Optimized Rule-Based AI                | Search-Based AI           |
+| **Core Concept**              | Uses precomputed move table | Uses predefined decision rules | Uses efficient numeric / logical rules | Uses game tree look-ahead |
+| **Decision Making**           | Table lookup                | If–else rule evaluation        | Mathematical + rule evaluation         | Minimax search            |
+| **Board Representation**      | Base-3 encoded board        | Simple vector representation   | Numeric / magic square style           | Game state tree           |
+| **Knowledge Storage**         | Explicit move table         | Rules only                     | Rules + numeric properties             | No stored knowledge       |
+| **Look-Ahead Capability**     | No                          | No                             | No                                     | Yes                       |
+| **Strategy Type**             | Stored knowledge            | Human-like reasoning           | Efficient reasoning                    | Optimal strategy          |
+| **Computation During Play**   | None                        | Low                            | Very low                               | High                      |
+| **Memory Requirement**        | Very high                   | Low                            | Very low                               | Medium                    |
+| **Execution Speed**           | Very fast                   | Fast                           | Faster                                 | Slower                    |
+| **Optimal Play**              | Yes (if table complete)     | Not guaranteed                 | Not guaranteed                         | Guaranteed                |
+| **Scalability**               | Very poor                   | Poor                           | Better than Logic-2                    | Best                      |
+| **Extendable to Other Games** | No                          | No                             | Limited                                | Yes                       |
+| **Learning Capability**       | No                          | No                             | No                                     | No                        |
+| **Overall AI Strength**       | Basic                       | Moderate                       | Improved moderate                      | Strong                    |
+
+
+Conclusion:
+The four logics demonstrate the evolution of Artificial Intelligence from memory-based systems to rule-based reasoning and finally to optimal search-based decision making.
+
